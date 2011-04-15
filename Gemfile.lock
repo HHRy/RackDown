@@ -1,0 +1,17 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    kgio (2.3.3)
+    rack (1.2.2)
+    rdiscount (1.6.8)
+    unicorn (3.5.0)
+      kgio (~> 2.3)
+      rack
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rack
+  rdiscount
+  unicorn
