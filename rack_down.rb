@@ -30,7 +30,7 @@ module RackDown
     private 
     
     def build_routing_hash
-      @allowed_files = (Dir.glob(@root + '/*.md') + Dir.glob(@root + '/*.mdown') + Dir.glob(@root + '/*.test'))
+      @allowed_files = Dir.glob(@root + '/*.md')
     end
   end
 end
